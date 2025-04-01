@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     tools:context=".BlankFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <!-- TODO: Обновите макет пустого фрагмента -->
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:contentDescription="@string/hello_blank_fragment_description" />
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -20,19 +20,25 @@
         <EditText
             android:id="@+id/editText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/button_text"/>
+            android:hint="@string/edit_text_hint"
+            android:inputType="text"
+            android:contentDescription="@string/edit_text_description"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_label"
+        android:contentDescription="@string/text_view_description" />
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text"
+            android:contentDescription="@string/button_description" />
+    </LinearLayout>
 
 </FrameLayout>
