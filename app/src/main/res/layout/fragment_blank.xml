@@ -21,24 +21,16 @@
             android:id="@+id/editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/edit_text_description"
             android:hint="@string/edit_text_hint"
             android:inputType="text"
-            android:contentDescription="@string/edit_text_description"
             tools:ignore="ContentDescription" />
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/text_view_label"
-        android:contentDescription="@string/text_view_description" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/button_text"
-            android:contentDescription="@string/button_description" />
+            android:layout_height="92dp"
+            android:text="@string/button_text" />
     </LinearLayout>
 
 </FrameLayout>

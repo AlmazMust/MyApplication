@@ -6,8 +6,4 @@
     <string name="hello_blank_fragment_description">Приветственное сообщение для пустого фрагмента.</string>
     <string name="edit_text_hint">Введите ваш текст здесь</string>
     <string name="edit_text_description">Поле ввода для текста пользователя.</string>
-    <string name="text_view_label">Результат:</string>
-    <string name="text_view_description">Отображает результат ввода.</string>
-    <string name="button_description">Кнопка отправки для отправки ввода.</string>
-
 </resources>
